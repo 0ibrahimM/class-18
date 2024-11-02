@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.header-section{
+background-image: url("https://placehold.co/1920x1080");
+background-size: cover;
+background-position: center;
+height:100vh;
+position: relative;
+display:flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.hero-content h1{
+font-size: 3rem;
+margin-bottom: 20px;
+color:green;
+}
+.hero-content p{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.btn-custom{
+    background-color:rgb(249, 89, 5);
+    border:none ;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    border-radius:30px;
+    text-decoration: none;
+    color: blue;
+    text-transform:capitalize;
+    transition: background-color .10s ease;
+}
+.btn-custom:hover{
+background-color: green;
+color: aliceblue;
+}
+.features-section{
+    padding:60px 0;
+}
+.features-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    font-weight:700 ;
+    color: rebeccapurple;
+}
+.features-card{
+    padding: 30px;
+    background-color:#38A538;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: inset 7px 3px 6px rgba(196, 10, 10, 0.5); */
+	transition:transform 0.5s ease ;
+}
+.features-card:hover{
+    transform: translateY(-10px);
+}
+
+.features-card img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.features-card h5{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color:black;
+}
+.features-card p{
+    font-size: 1.4rem;
+    color:white;
+}
+
+.testimonials-section{
+    padding: 60px 0;
+    background-color:rgba(223,224,224);
+    text-align: center;
+
+}
+.testimonials-section h2{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.testimonials{
+    padding: 30px;
+    background-color:gray;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 30px;
+}
+.testimonials img{
+    border-radius: 50px;
+width: 80px;
+margin-bottom: 20px;
+}
+.testimonials p{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+.checkout-section{
+padding: 60px 0;
+}
+.checkout-section h2{
+text-align: center;
+text-transform: capitalize;
+font-weight: 600;
+color: black;
+margin-bottom: 30px;
+}
+.checkout-from{
+    max-width: 600px;
+   margin: 0 auto;
+   padding: 30px;
+   background-color:gray;
+   color: black;
+   box-shadow: 0 4px 40px gray;
+}
+.checkout-from.custom-input{
+margin-bottom: 20px;
+padding: 15px;
+border-radius: 15px;
+}
+.btn-customs{
+    width: 100%;
+    background-color: green;
+    border-radius: 11px;
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+.footer{
+    padding: 60px 0;
+    background-color: black;
+    color: white;
+
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo img{
+    width: 150;
+}
+.social-icon a{
+/* color: white; */
+font-size: 2rem;
+transition: color 0.3s ease;
+}
+.social-icon .x{
+color:white;
+}
+.social-icon .youtube{
+    color: #F60002;
+}
+.social-icon .linkedin{
+    color: #0C61BF;
+}
+.social-icon .whatsapp{
+    color: #3FBE4F;
+}
+
+.social-icon a:hover{
+    color: green;
+}
